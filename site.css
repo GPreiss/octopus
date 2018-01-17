@@ -1,7 +1,9 @@
-body{
+.container{
   background-color: #fbc547;
   color: white;
   font-family: "Helvetica", sans-serif;
+  width: 100%;
+  height: 100vh;
 }
 label, input{
   display: block;
@@ -48,7 +50,7 @@ hr{
   border: 1px solid white;
   opacity: 0.8;
   text-align: center;
-  margin-left: 29px;
+  margin-left: 105px;
   color: #5bc0de;
 }
 #getaddress_button{
@@ -60,7 +62,7 @@ hr{
   color: white;
   padding: 8px;
   margin: 6px;
-  margin-right: 193px;
+  margin-right: 214px;
 }
 #getaddress_dropdown{
   height: 50px;
