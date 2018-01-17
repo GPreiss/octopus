@@ -1,5 +1,6 @@
 <!doctype html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -7,6 +8,8 @@
   content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Use the title from a page's frontmatter if it has one -->
   <title>"Octopus Xercise"</title>
+  <link rel="stylesheet" type="text/css" href="site.css">
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css">
@@ -18,10 +21,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
 
   <script src="https://getaddress.io/js/jquery.getAddress-2.0.7.min.js"></script>
-
-  <link rel="stylesheet" href="/site.css">
-
 </head>
+
 <body>
   <div class="container">
     <div class="title-text">
@@ -87,10 +88,8 @@
       </form>
     </div>
   </div>
+
   <script type="text/javascript">
-
-
-
     $(function(){
       var $select = $(".1year");
       for (i=1;i<=10;i++){
@@ -145,7 +144,7 @@ onAddressSelected: function(elem,index){/* Your custom code */}
       document.getElementById('display').innerHTML =
       line1 + ", " + line2 + "<br>" + town + ", " + county + "<br>" + "Time at address: " + selectyr + " years and " + selectmth + "months" ;
     }
-
   </script>
+
 </body>
 </html>
